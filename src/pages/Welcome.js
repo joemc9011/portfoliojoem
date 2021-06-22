@@ -30,7 +30,7 @@ function Welcome() {
 
 
         <div className = "projdiv">
-          <h1 className = "title">Projects</h1>
+          <h1 className = "title">PROJECTS</h1>
 
 
           <div className='col'>
@@ -57,7 +57,7 @@ function Welcome() {
         </div>
 
         <div className = "photodiv">
-          <h1 className = "title">Photoshop</h1>
+          <h1 className = "title">PHOTOSHOP</h1>
 
           <div className='col' id='photo' >
             <Photoshop
