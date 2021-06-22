@@ -1,0 +1,19 @@
+.container {
+    background-color: rgb(35, 105, 133);
+
+    border-radius: 20px;
+    border: rgb(64, 74, 78) 5px solid;
+    color: 'white'
+
+}
+#first {
+    background-color: black;
+}
+
+.card-title {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
