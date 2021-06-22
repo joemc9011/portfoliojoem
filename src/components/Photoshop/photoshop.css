@@ -1,4 +1,23 @@
 .art {
-width: 150%
+max-width: 100%;
+
 }
 
+#bod {
+background-color:red;
+border-radius: 15px;
+padding: 25px;
+    border: solid 6px rgb(190, 171, 138);
+
+}
+
+.text {
+    background-color: wheat;
+    margin-left: 10%;
+    border-radius: 15px;
+
+}
+
+.card-title {
+    font-size: 40px;
+}

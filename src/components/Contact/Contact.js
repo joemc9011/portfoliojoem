@@ -1,24 +1,11 @@
 import React from "react";
-const styles = {
-  body: {
-    textAlign: 'center',
-    backgroundColor: ' rgb(99, 74, 102)',
-    fontSize: '20px',
-    padding: '50px',
-    height: '100%',
-    marginTop: '30px'
 
-  },
-   info: {
-    display: 'inline-block',
-  }
-}
 function Contact() {
   return (
-    <div style= {styles.body}>
+    <div >
   
       <h1>Contact</h1>
- <div style = {styles.info}>
+ <div>
 
        <ul>
          

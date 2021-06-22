@@ -1,16 +1,12 @@
 import React from "react";
 import Welcome from './pages/Welcome';
 import Footer from './components/Footer/Footer';
+import './app.css'
 
-const  styles = {
-  page: {
-    backgroundColor: 'black'
-  }
-}
 function App() {
   return (
       
-  <div className = 'page' style = {styles.page}>
+  <div className = 'page'>
     
     <Welcome/>
     <Footer/>

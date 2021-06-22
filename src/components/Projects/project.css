@@ -1,18 +1,29 @@
-.container {
-    background-color: rgb(35, 105, 133);
 
-    border-radius: 20px;
-    border: rgb(64, 74, 78) 5px solid;
-    color: 'white'
 
-}
 #first {
-    background-color: black;
+    background-color: rgb(19, 74, 111);
+    border-radius: 20px;
+    border: solid 6px rgb(190, 171, 138);
+
 }
 
 .card-title {
     font-size: 35px;
     text-align: center;
+    color: white
+}
+
+.card-img-top {
+    max-width: 1000px;
+    border: solid 6px rgb(91, 91, 91 );
+}
+
+.card {
+    margin: 15px;
+
+ padding: 20px;
+     text-align: center
+
 }
 
 

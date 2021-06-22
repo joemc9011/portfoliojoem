@@ -5,6 +5,7 @@ const styles = {
     foot: {
         textAlign: 'center',
         backgroundColor: 'black',
+        color: "white"
     }
 }
 function Footer () {
