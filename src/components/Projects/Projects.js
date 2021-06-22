@@ -3,9 +3,7 @@ import './project.css'
 
 function Projects({title, descrip, gitlink, pic}) {
     return (
-        <div className="container" >
-            <div id="top" class="row">
-                <div className="col">
+     
                     <div id="first" class="card" >
                         
                         <div className="card-body">
@@ -17,9 +15,7 @@ function Projects({title, descrip, gitlink, pic}) {
                             <a href={gitlink} class="btn btn-primary">Github Link</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+     
 
 
 

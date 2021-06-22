@@ -21,9 +21,11 @@ function Welcome() {
 
         <About id="about"
           pic={`${process.env.PUBLIC_URL}/assets/me.jpg`} />
+              <div className="row" id='contact'>
+            <Contact />
+          </div>
 
         <div className='container' >
-          <div className="row">
             <div className='col'>
               <div className='proj' id="project">
                 <Projects
@@ -71,11 +73,8 @@ function Welcome() {
                 descrip='Paul Spratt (Comedian) podcast'
               />
             </div>
-          </div>
 
-          <div className="row" id='contact'>
-            <Contact />
-          </div>
+      
 
 
 
