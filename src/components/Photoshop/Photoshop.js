@@ -3,7 +3,7 @@ import './photoshop.css';
 
 function Photoshop({ pic, title, descrip}) {
     return (
-        <div className="card mb-3" id = "bod">
+        <div className="card mb-3" id =  "bod">
         <div className="row g-0">
           <div className="col-md-4">
             <img className='art' src={pic} alt="..."/>

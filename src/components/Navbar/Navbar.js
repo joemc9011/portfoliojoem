@@ -1,16 +1,9 @@
 import React from 'react';
-
-const styles = {
-    name: {
-
-        padding: '30px',
-        marginLeft: '33%'
-
-    },
+import './Nav.css'
     
 
     
-}
+
 function Navbar({projlink, aboutlink, contactlink, photolink}) {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,7 +12,7 @@ function Navbar({projlink, aboutlink, contactlink, photolink}) {
 
             
          
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style={styles.name}>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href={aboutlink}>About</a>
                         </li>

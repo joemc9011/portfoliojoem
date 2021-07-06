@@ -1,7 +1,7 @@
 
      .projdiv {
-        background-color: rgb(37; 125; 140);
-        padding: 50px;
+        background-color: rgb(37, 128, 140);
+        padding: 80px;
         margin: 30px;
         border-radius: 40px;
       }
@@ -15,7 +15,7 @@
       }
 
       .photodiv {
-        background-color: rgb(140; 37; 114);
+        background-color: rgb(127, 158, 200);
         padding: 50px;
         margin: 30px;
         border-radius: 40px;
@@ -24,10 +24,13 @@
       #contact {
      
           text-align: center;
-          background-color:  rgb(99, 74, 102);
+          background-color:  rgb(87, 112, 141);
           font-size: 20px;
-          padding: 20px;
+        
           margin-top: 30px;
+          padding: 80px;
+          margin: 30px;
+          border-radius: 40px;
           color: white;
        
         

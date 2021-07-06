@@ -1,10 +1,12 @@
 .art {
 max-width: 100%;
+float: left;
+overflow: hidden;
 
 }
 
 #bod {
-background-color:red;
+    background-color: rgb(100, 126, 133);
 border-radius: 15px;
 padding: 25px;
     border: solid 6px rgb(190, 171, 138);
@@ -13,8 +15,11 @@ padding: 25px;
 
 .text {
     background-color: wheat;
+    max-width: 100%;
     margin-left: 10%;
     border-radius: 15px;
+    
+
 
 }
 
