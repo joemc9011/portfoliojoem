@@ -2,8 +2,18 @@ import React from "react";
 
 function Contact() {
   return (
-    <div >
+    <section >
+  <h1>Hi!</h1>
+ 
   
+  <p> My name is Joe McAndrew. I am a creative and motivated individual. Adopted from Peru and thriving in New Jersey,
+        I have managed to carve multiple successful roles for myself throughout the years. Within the last 10 years
+        I have been successful with standup comedy and graphic design.
+        Both feilds were met with determination, self-discipline, and free food in
+        lieu of payment. Web development is my next mountain to scale.
+        I am very confident I can achieve success within this field due to my ability to
+        find and create rewarding lanes for myself, and determination.</p>
+
       <h1>Contact</h1>
  <div>
 
@@ -23,7 +33,7 @@ function Contact() {
          </l>
          <l>
            <h4>Resume:</h4>
-           <a href="https://docs.google.com/document/d/1AKomnxBeWCwA_mAkxhp-berV6uLh43x525av48b1IzQ/edit?usp=sharing">
+           <a href="https://drive.google.com/file/d/1KEf9uX4H-YpqoJYzcLeMUsEw7aEs_0vo/view?usp=sharing">
              View PDF
            </a>
          </l>
@@ -31,7 +41,7 @@ function Contact() {
  </div>
       
       
-    </div>
+    </section>
   );
 }
 

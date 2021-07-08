@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../components/About/About';
+import Pic from '../components/Pic/Pic';
 import Projects from '../components/Projects/Projects';
 import Photoshop from '../components/Photoshop/Photoshop';
 import Contact from '../components/Contact/Contact';
@@ -13,14 +13,14 @@ function Welcome() {
       <Navbar
         photolink={'#photo'}
         projlink={'#project'}
-        aboutlink={'#about'}
+        piclink={'#about'}
         contactlink={'#contact'} />
 
       <div className='page'>
 
 
-        <About id="about"
-          pic={`${process.env.PUBLIC_URL}/assets/me.jpg`} />
+        <Pic id="about"
+          pict={`${process.env.PUBLIC_URL}/assets/me.png`} />
 
 
 
@@ -39,7 +39,8 @@ function Welcome() {
                 title={"Local Weather App"}
                 pic={`${process.env.PUBLIC_URL}/assets/weather.png`}
                 descrip={"A simple weather app utilizing AJAX calls to Openweather to provide the current weather outlook for the day."}
-                gitlink={"https://joemc9011.github.io/Weather/"} />
+                deploylink={"https://joemc9011.github.io/Weather/"}
+                gitlink={"https://github.com/joemc9011/Weather"} />
               <Projects
                 title={"Employee Tracker"}
                 descrip={"Content management system that simplifies employee record keeping for employers"}
@@ -49,7 +50,8 @@ function Welcome() {
                 title={"Timed Javascript Quiz"}
                 descrip={"A timed multiple choice quiz, constructed with javascript, that will let the user know when they are wrong and right"}
                 pic={`${process.env.PUBLIC_URL}/assets/quiz.png`}
-                gitlink={"https://joemc9011.github.io/quiz.hw/"} />
+                deploylink={"https://joemc9011.github.io/quiz.hw/"}
+                gitlink={"https://github.com/joemc9011/quiz.hw"} />
             </div>
 
           </div>
@@ -59,7 +61,7 @@ function Welcome() {
         <div className = "photodiv">
           <h1 className = "title">PHOTOSHOP</h1>
 
-          <div className='col' id='photo' >
+          <div className='row' id='photo' >
             <Photoshop
               pic={`${process.env.PUBLIC_URL}/assets/creature.png`}
               title="Creature Skateboard"
