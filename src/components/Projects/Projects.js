@@ -6,7 +6,7 @@ function Projects({title, descrip, gitlink, deploylink, pict}) {
      
                     <div id="first" class="card" >
                         
-                        <div className="card-body">
+                        <div className="card-body" id = "body">
                             <h5 className="card-title">{title}</h5>
                             <img src={pict} class="card-img-top" alt = "#"/>
                             <p className="card-text">{descrip}</p> 

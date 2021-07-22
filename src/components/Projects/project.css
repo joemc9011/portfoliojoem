@@ -1,9 +1,13 @@
 
 
 #first {
-    background-color: rgb(11, 152, 187);
+    background-color: rgb(47, 99, 112);
     border-radius: 20px;
     border: solid 6px rgb(190, 171, 138);
+    width: 55rem;
+    margin: auto;
+
+  
 
 }
 
@@ -14,15 +18,14 @@
 }
 
 .card-img-top {
-    max-width: 1000px;
+    max-width: 100%;
     border: solid 6px rgb(91, 91, 91 );
 }
 
 .card {
-    margin: 15px;
-color: white;
- padding: 20px;
-     text-align: center
+    color: white;
+    padding: 40px;
+    text-align: center
 
 }
 #buttonproj {
