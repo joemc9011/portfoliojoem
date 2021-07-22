@@ -82,8 +82,10 @@ function Welcome() {
             descrip='Paul Spratt (Comedian) podcast'
           />
         </div>
-
-    <Contact/>
+<div className='contact'>
+<Contact/>
+</div>
+ 
 
 
 
